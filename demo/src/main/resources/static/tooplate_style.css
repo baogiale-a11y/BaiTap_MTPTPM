@@ -134,12 +134,14 @@ a.more:hover {
 	clear: both;
 	width: 960px;
 	height: 50px;
-	background: url(images/tooplate_menu.jpg)
+	background: #16191d;
+	border-top: 1px solid #2a2e33;
+	border-bottom: 1px solid #2a2e33;
 }
 
 #tooplate_menu ul {
 	float: left;
-	width: 740px;
+	width: 760px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -148,7 +150,7 @@ a.more:hover {
 #tooplate_menu ul li {
 	float: left;
 	display: block;
-	width: 100px;
+	width: 108px;
 	padding: 0;
 	margin: 0;
 	display: inline;
@@ -158,43 +160,57 @@ a.more:hover {
 
 #tooplate_menu ul li a {
 	display: block;
-	width: 100px;
-	height: 32px;
-	padding: 8px 0 0;
+	width: 108px;
+	height: 38px;
+	padding: 6px 0 0;
 	margin: 0;
-	font-size: 14px;
+	font-size: 24px;
 	text-align: center;
 	text-decoration: none;
-	color: #5fa008;	
+	color: #6bb321;
 	font-weight: normal;
 	outline: none;
 	border: none;
-	background: url(images/tooplate_menu.png) no-repeat bottom center
+	background: none;
+	line-height: 18px;
 }
 
 #tooplate_menu ul li a:hover, #tooplate_menu ul li .current { 
 	color: #fff; 
 	height: 38px; 
-	padding: 5px 0 0 0; 
-	background: url(images/tooplate_menu_hover.png) bottom center no-repeat; 
+	padding: 6px 0 0; 
+	background: none;
 }
 
 #tooplate_menu ul .last { 
 	background: none; 
 }
 
+.nav_arrow {
+	display: block;
+	font-size: 12px;
+	line-height: 12px;
+	margin-top: 2px;
+	color: #74bf23;
+}
+
+#tooplate_menu ul li .current .nav_arrow {
+	color: #ffffff;
+}
+
 #search_box { 
 	float: right; 
-	margin: 12px 0 0 0; 
-	width: 170px; 
-	height: 27px; 
-	background: url(images/tooplate_search.png) no-repeat; 
+	margin: 10px 8px 0 0; 
+	width: 190px;
+	height: 30px;
+	background: #2c3137;
+	border: 1px solid #1f2227;
 }
 
 #search_box form { 
 	clear: both; 
-	width: 170px; 
-	height: 26px; 
+	width: 190px;
+	height: 30px;
 	padding: 0; 
 	margin: 0; 
 } 
@@ -202,26 +218,29 @@ a.more:hover {
 #searchfield { 
 	float: left; 
 	display: block; 
-	height: 16px; 
-	width: 130px; 
-	padding: 5px; 
+	height: 20px;
+	width: 147px;
+	padding: 5px 6px;
 	font-size: 12px; 
 	color: #ccc; 
 	line-height: 0; 
-	background: none; 
+	background: transparent;
 	border: none; 
 } 
 
 #searchbutton { 
 	float: right; 
 	display: block; 
-	height: 26px; 
-	width: 30px; 
+	height: 30px;
+	width: 30px;
 	padding: 0; 
 	margin: 0; 
 	cursor: pointer; 
-	background: none; 
-	border: none; 
+	background: #6eb424;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	line-height: 30px;
 }
 
 /* end of menu */
