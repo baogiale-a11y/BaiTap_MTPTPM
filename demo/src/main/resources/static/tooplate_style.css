@@ -538,3 +538,7 @@ a.more:hover {
 	color: #5fa008; 
 	font-weight: normal; 
 }
+
+body {
+	background-color: red !important;
+}
